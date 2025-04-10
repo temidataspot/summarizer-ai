@@ -18,7 +18,4 @@ steps:
     ]
 
 options:
-  logging: CLOUD_LOGGING_ONLY  # You can also use 'NONE' if you want no logging
-  logsBucket: gs://my-cloud-build-model  # Update this with your bucket name
-
-
+  logging: CLOUD_LOGGING_ONLY  # This sends logs to Google Cloud Logging (default option)
