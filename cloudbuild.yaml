@@ -20,6 +20,5 @@ steps:
 options:
   logging: CLOUD_LOGGING_ONLY  # You can also use 'NONE' if you want no logging
   logsBucket: gs://my-cloud-build-model  # Update this with your bucket name
-options:
-  logging: REGIONAL_USER_OWNED_BUCKET  # Use default logging options
+
 
